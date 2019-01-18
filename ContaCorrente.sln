@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContaCorrente.Dominio.Transferencia", "ContaCorrente.Dominio.Transferencia\ContaCorrente.Dominio.Transferencia.csproj", "{7307F472-D97E-4092-8836-E9B30FBFCEBD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContaCorrente.Api.Transferencia", "ContaCorrente.Api.Transferencia\ContaCorrente.Api.Transferencia.csproj", "{CAA820B0-9F23-4D45-95E3-A25D4FD5B4E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContaCorrente.Dominio.Transferencia.Testes", "ContaCorrente.Dominio.Transferencia.Testes\ContaCorrente.Dominio.Transferencia.Testes.csproj", "{FDDB097F-0A75-4636-BECE-79F003583D00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContaCorrente.Dominio.Transferencia.Infra.Data", "ContaCorrente.Dominio.Transferencia.Infra\ContaCorrente.Dominio.Transferencia.Infra.Data.csproj", "{954E0D88-7B15-4779-A3D6-0EB3DC48B69B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{2020F887-4592-4A38-8A62-F4299B7FF57E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestrutura", "Infraestrutura", "{7A35CF8A-1429-4260-ABBA-DD836824AC8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7307F472-D97E-4092-8836-E9B30FBFCEBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7307F472-D97E-4092-8836-E9B30FBFCEBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7307F472-D97E-4092-8836-E9B30FBFCEBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7307F472-D97E-4092-8836-E9B30FBFCEBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAA820B0-9F23-4D45-95E3-A25D4FD5B4E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA820B0-9F23-4D45-95E3-A25D4FD5B4E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA820B0-9F23-4D45-95E3-A25D4FD5B4E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAA820B0-9F23-4D45-95E3-A25D4FD5B4E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDDB097F-0A75-4636-BECE-79F003583D00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDDB097F-0A75-4636-BECE-79F003583D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDDB097F-0A75-4636-BECE-79F003583D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDDB097F-0A75-4636-BECE-79F003583D00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{954E0D88-7B15-4779-A3D6-0EB3DC48B69B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{954E0D88-7B15-4779-A3D6-0EB3DC48B69B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{954E0D88-7B15-4779-A3D6-0EB3DC48B69B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{954E0D88-7B15-4779-A3D6-0EB3DC48B69B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7307F472-D97E-4092-8836-E9B30FBFCEBD} = {2020F887-4592-4A38-8A62-F4299B7FF57E}
+		{CAA820B0-9F23-4D45-95E3-A25D4FD5B4E5} = {2020F887-4592-4A38-8A62-F4299B7FF57E}
+		{FDDB097F-0A75-4636-BECE-79F003583D00} = {2020F887-4592-4A38-8A62-F4299B7FF57E}
+		{954E0D88-7B15-4779-A3D6-0EB3DC48B69B} = {7A35CF8A-1429-4260-ABBA-DD836824AC8A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {682636D3-F90C-437D-B077-506D9AE9B990}
+	EndGlobalSection
+EndGlobal
